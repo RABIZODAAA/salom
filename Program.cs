@@ -11,4 +11,6 @@ post.Publish();
 
 post.Like();
 
-Console.WriteLine($"FullName: {}");
+Console.WriteLine($"FullName: {post.Title}");
+Console.WriteLine($"SurnName: {post.Description}");
+Console.WriteLine($"Likeskom: {post.Like}");
